@@ -20,16 +20,23 @@
     
 }
 
+#row-d {
+    border: 2px double red;
+    float: right;
+    width: 35%;
+}
+
 .row {
-    display: flex;
+    
     border: 2px solid black;
-    justify-content: center;
+    float: left;
+    width: 35%;
     
     
 }
 
 p {
-    color: aliceblue;
+   
 }
 
 
