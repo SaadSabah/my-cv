@@ -1,0 +1,51 @@
+*{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-weight: 600;
+    word-spacing: 3px;
+    text-align: center;
+    
+    
+    
+}
+
+
+.container-fluid {
+    border: 2px double black;
+    display: flex;
+    border-radius: 5px;
+    background-image: url("bg3.jpg");
+    
+    
+}
+
+.row {
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    
+    
+}
+
+p {
+    color: aliceblue;
+}
+
+
+
+#photo-hav {
+   width: 25%;
+    border-radius: 20%; /* Make the image circular */
+    padding: 40px;
+}
+
+img:hover {
+    box-shadow: 0 0 15px 15px red;
+   
+}
+
+
+
+
+

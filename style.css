@@ -1,0 +1,287 @@
+.parent-div {
+    padding: 15px;
+    border: 12px solid gold;
+    background-color: green;
+   display: block;
+   margin: auto;
+    
+}
+
+/* .div-hold-nav {
+    padding: 50px;
+    display: flex;
+    background-color: green;
+    position: relative;
+    
+    
+} */
+
+.navbar {
+  
+   font-size: 40px;
+   font-style: italic;
+   font-weight: 600;
+   position: sticky;
+}
+
+ul a {
+    
+    margin-left: 50px;
+   
+    
+}
+
+li a {
+    
+}
+
+li a:hover {
+    box-shadow: 0 0 11px 11px yellowgreen;
+    position: relative;
+    border: 75px;
+    border-radius: 25px;
+    /* font-size: 110%; */
+   /*  cursor: wait; */
+    cursor: pointer;
+
+}
+
+
+
+
+.logo-name {
+    font-style: italic;
+    color: aliceblue;
+}
+
+
+.row-m {
+    
+    padding-top: 3px;
+    border: 1px solid gold;
+    background-color: greenyellow;
+}
+
+.col-l {
+    
+    padding: 5px;
+    border: 11px solid green;
+    width: 70%;
+}
+
+/* Center the image horizontally and vertically */
+.col-r {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 11px solid green;
+    padding: 40px;
+}
+
+/* Style for the image */
+.img-saad {
+    max-width: 100%; /* Ensure the image doesn't exceed the column width */
+    border-radius: 20%; /* Make the image circular */
+    padding: 40px;
+}
+
+img:hover {
+    box-shadow: 0 0 10px 10px green;
+    
+    
+}
+
+.img-saad ::before{
+
+}
+
+
+
+.h2-hi {
+    font-style: italic;
+    padding-left: 25px;
+    padding-top: 15px;
+    margin-top: 50px;
+    font-weight: 600;
+    
+}
+
+.h3-programmer {
+    font-style: italic;
+    padding-left: 25px;
+    padding-top: 15px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.p-info {
+    font-style: italic;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-top: 15px;
+    margin-top: 50px;
+    color: black;
+}
+
+.container-sm {
+    /* border: 2px solid yellowgreen; */
+    margin-top: 200px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+.btn-box a {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:green;
+    /* background: #00abf0; */
+    /* border: 2px solid #00abf0; */
+    border: 2px solid green;
+    border-radius: 8px;
+    font-size: 19px;
+    /* color: #081b29; */
+    color: yellowgreen;
+    text-decoration: none;
+    font-weight:600 ;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+
+.btn-box a:hover {
+   /*  color: #00abf0; */
+   color: gold;
+}
+
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    /* color: #00abf0; */
+    color: green;
+}
+
+
+.btn-box a:nth-child(2):hover {
+    /* color: #081b29; */
+    color: gold;
+}
+
+
+.btn-box a:nth-child(2)::before {
+    background: green;
+}
+
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    /* background: #081b29; */
+    background: yellowgreen;
+    z-index: -1;
+    transition: .5s;
+}
+
+
+.btn-box a:hover::before {
+    width: 100%;
+}
+
+.home-sci {
+   
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.home-sci::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  /*  background:yellowgreen;  /*background icons*/
+    animation: showRight 1s ease forwards;
+    animation-delay: 2.5s;
+    z-index: 2;
+}
+
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid green;
+    border-radius: 50%;
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .2s;
+}
+
+
+.home-sci a:hover {
+    color: greenyellow;
+}
+
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: yellowgreen; /* icons hover*/
+    z-index: -1;
+    transition: .2s;
+}
+
+
+.home-sci a:hover::before {
+    width: 100%;
+}
+
+/* KEYFRAMES ANIMATION */
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
+
+
+@keyframes mainpActivehover {
+    100% {
+        pointer-events: auto;
+    }
+}
+
+
