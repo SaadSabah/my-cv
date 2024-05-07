@@ -1,3 +1,6 @@
+*{
+    text-transform: capitalize;
+}
 .parent-div {
     padding: 19px;
     border: 11px solid green;
