@@ -111,6 +111,8 @@ li a:hover {
     border: 11px solid greenyellow;
     border-radius: 50px;
     align-content: center;
+    padding: 15px;
+    padding-left: 30%;
     
   }
 
@@ -119,7 +121,8 @@ li a:hover {
     border-radius: 10%;
     background-color: greenyellow;
     align-content: center;
-    border: 10px solid black;
+    border: 10px solid green;
+    
     
   }
   
