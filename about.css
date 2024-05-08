@@ -1,6 +1,7 @@
 *{
     /* background-image: url('background-1.jpeg'); */
     text-transform: capitalize;
+   /*  padding: 2px; */
 }
 
 #main-div {
@@ -10,9 +11,10 @@
 }
 
 #row-1 {
-    border: 2px solid red;
-    box-sizing: border-box;
+    border: 10px solid gold;
+    padding: 2px;
     overflow: hidden;
+    display: block;
 }
 
 #col-r {
@@ -20,7 +22,9 @@
     float: right;
     align-content: center;
     background-color: rgb(174, 239, 110);
-    width: 29%;
+    width: 31%;
+    display: block;
+    
 }
 
 #col-l {
@@ -32,23 +36,33 @@
 
 .card {
     border: 2px solid rgb(54, 120, 243);
+    background-color:rgb(54, 120, 243);
+    display: block;
+    padding-top: 9%;
 }
 
 #col-s1 {
-    border: 2px solid white;
+    border: 2px solid rgb(54, 120, 243);
     float: right;
+    padding-right: 38%;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(174, 239, 110);
 }
 
 #col-s2 {
-    border: 2px solid white;
+    border: 2px solid rgb(54, 120, 243);
     float: left;
+    padding-left: 20%;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(174, 239, 110);
 }
 
-img {
-    align-self: center;
-    width: 150px;
-    height: auto;
-}
+/* #bg-pen {
+    width: 140%;
+    padding: 3px;
+} */
 
 h1 {
     color: rgb(173, 237, 109);
